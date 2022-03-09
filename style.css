@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+/* font-family: 'Bebas Neue', cursive; */
+
+:root {
+  --background: #222222;
+}
+
+/* body  */
+body {
+  /* reset */
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+
+  /* center everything */
+
+  background-color: var(--background);
+}
+
+main {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  position: absolute;
+  list-style-type: none;
+}
+
+form {
+  margin-top: 1.5em;
+}
+
+main:first-of-type ul:first-of-type {
+  left: 50%;
+  top: 50%;
+}
+
+main:first-of-type ul:nth-of-type(2) {
+  left: 40%;
+  top: 45%;
+}
+
+main:first-of-type ul:nth-of-type(3) {
+  left: 60%;
+  top: 65%;
+}
+
+main:first-of-type ul li {
+  position: absolute;
+  left: -2px;
+  bottom: 0;
+  width: 2px;
+  height: 80px;
+  transform-origin: 50% 100%;
+  border-radius: 15px 50px;
+  overflow: hidden;
+}
+
+main:first-of-type ul li:nth-child(1) {
+  transform: rotate(18deg) translate(-25px);
+}
+main:first-of-type ul li:nth-child(2) {
+  transform: rotate(36deg) translate(-25px);
+}
+main:first-of-type ul li:nth-child(3) {
+  transform: rotate(54deg) translate(-25px);
+}
+main:first-of-type ul li:nth-child(4) {
+  transform: rotate(72deg) translate(-25px);
+}
+main:first-of-type ul li:nth-child(5) {
+  transform: rotate(90deg) translate(-25px);
+}
+main:first-of-type ul li:nth-child(6) {
+  transform: rotate(108deg) translate(-25px);
+}
+main:first-of-type ul li:nth-child(7) {
+  transform: rotate(126deg) translate(-25px);
+}
+main:first-of-type ul li:nth-child(8) {
+  transform: rotate(144deg) translate(-25px);
+}
+main:first-of-type ul li:nth-child(9) {
+  transform: rotate(162deg) translate(-25px);
+}
+main:first-of-type ul li:nth-child(10) {
+  transform: rotate(180deg) translate(-25px);
+}
+main:first-of-type ul li:nth-child(11) {
+  transform: rotate(198deg) translate(-25px);
+}
+main:first-of-type ul li:nth-child(12) {
+  transform: rotate(216deg) translate(-25px);
+}
+main:first-of-type ul li:nth-child(13) {
+  transform: rotate(234deg) translate(-25px);
+}
+main:first-of-type ul li:nth-child(14) {
+  transform: rotate(252deg) translate(-25px);
+}
+main:first-of-type ul li:nth-child(15) {
+  transform: rotate(270deg) translate(-25px);
+}
+main:first-of-type ul li:nth-child(16) {
+  transform: rotate(288deg) translate(-25px);
+}
+main:first-of-type ul li:nth-child(17) {
+  transform: rotate(306deg) translate(-25px);
+}
+main:first-of-type ul li:nth-child(18) {
+  transform: rotate(324deg) translate(-25px);
+}
+main:first-of-type ul li:nth-child(19) {
+  transform: rotate(342deg) translate(-25px);
+}
+main:first-of-type ul li:nth-child(20) {
+  transform: rotate(360deg) translate(-25px);
+}
+
+/* main:first-of-type ul li:nth-child(2n) {
+  background: yellow;
+} */
+
+main:first-of-type ul li::before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  height: 40px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  animation: 2s ease-in-out 1s infinite explosion;
+}
+
+main:first-of-type ul li:nth-child(2n)::before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  height: 30px;
+  background: purple;
+
+  animation: 2s ease-in-out 3s infinite explosion;
+
+  /* animation-delay: 5s; */
+}
+
+@keyframes explosion {
+  0% {
+    top: 100%;
+  }
+  33%,
+  100% {
+    top: -50%;
+  }
+}
+
+main:first-of-type ul:first-of-type {
+  left: 50%;
+  top: 50%;
+  transform: scale(1);
+}
+
+main:first-of-type ul:nth-of-type(2) {
+  left: 35%;
+  top: 35%;
+  transform: scale(0.8);
+}
+
+main:first-of-type ul:nth-of-type(2) li::before {
+  animation: explosion 2s ease-in-out infinite;
+  animation-delay: 0.4s;
+}
+
+main:first-of-type ul:nth-of-type(3) {
+  left: 60%;
+  top: 65%;
+  transform: scale(0.4);
+}
+
+main:first-of-type ul:nth-of-type(3) li::before {
+  animation: explosion 2s ease-in-out infinite;
+}
+
+input[type="radio"] {
+  opacity: 0.01;
+  z-index: 100;
+}
+
+/* BUTTONS */
+label {
+  margin-top: 1em;
+  padding: 0.5em 1em 0.5em 1em;
+  border: 1px solid white;
+  cursor: pointer;
+  border-radius: 2px;
+  color: white;
+  display: block;
+  position: absolute;
+  left: 2%;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 1px;
+  /* font-size: large; */
+}
+
+label:nth-of-type(2) {
+  left: 12%;
+}
+
+label:nth-of-type(3) {
+  left: 22%;
+}
+
+label:hover {
+  background: black;
+  transition: 0.2s ease-in-out;
+}
+
+label:active {
+  background: yellow;
+}
+
+input[type="radio"]:first-of-type:checked ~ main:first-of-type {
+  display: flex;
+}
+
+input[type="radio"]:nth-of-type(2):checked ~ main:nth-of-type(2) {
+  display: flex;
+}
+
+input[type="radio"]:nth-of-type(3):checked ~ main:nth-of-type(3) {
+  display: flex;
+}

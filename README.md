@@ -35,25 +35,26 @@ In addition from how it now looks, i still want to update the background of the 
 
 In de eerste week had ik super veel zin om aan de slag te gaan met CSS, ik wilde voor dit project in eerste instantie werken met 3D objecten. Ik had hiervoor een goede tutorial gevonden die ik wilde gaan volgen. Hier ben ik mee aan de slag gegaan.
 
-Gekozen onderdeel: **Stijlvast Bedieningspaneel**
-Turotial: (https://medium.com/@annychuks07/how-to-create-a-3d-art-model-with-css3-555a7f0056ed)[https://medium.com/@annychuks07/how-to-create-a-3d-art-model-with-css3-555a7f0056ed]
+Gekozen onderdeel: "**Stijlvast Bedieningspaneel**" <br>
+Tutorial: <br>
+(https://medium.com/@annychuks07/how-to-create-a-3d-art-model-with-css3-555a7f0056ed)[https://medium.com/@annychuks07/how-to-create-a-3d-art-model-with-css3-555a7f0056ed]
 
 ### Week 2
 
 In week twee was ik nog steeds bezig met de turotial met de 3D objecten het was ook aardig gelukt om via de tutorial een 3D huis neer te zetten. Helaas kwam ik erachter dat ik de code die is geschreven zelf niet helemaal goed begreep en dat ik niet het gewenste resultaat uit de tutorial heb gehaald. Ik heb daarom besloten om aan het eind van deze week een nieuw concept te beginnen.
 
-Huisje met 2000px perspective:
-<img src="./images/huisje.png" alt="foto van huisje" width="150px"> <br>
+Huisje met 2000px perspective: <br>
+<img src="./images/huisje.png" alt="foto van huisje" width="250px"> <br>
 
-Huisje met 1000px perspective:
-<img src="./images/huisje-kapot.png" alt="foto van huisje kapot" width="150px">
+Huisje met 1000px perspective: <br>
+<img src="./images/huisje-kapot.png" alt="foto van huisje kapot" width="250px">
 
 ### Week 3
 
 In week 3 ben heb ik een nieuw concept gekozen en heb ik besloten om met de vuurwerk opdracht aan de slag te gaan. Ik had mijn vorige concept uit het raam gegooit en ben meteen begonnen met het nieuwe concept. Ik ben begonnen met de interactie, ik wil namelijk 3 vuurwerk shows laten zien en dat de gebruiker kan kiezen tussen deze 3.
 In deze week had ik de interactie en 1 vuurwerk show al afgekregen dus het zag er goed uit!
 
-Gekozen onderdeel: **Magische vuurwerkshow**
+Gekozen onderdeel: "**Magische vuurwerkshow**"
 
 ### Week 4
 
@@ -61,7 +62,8 @@ In week 4 ging ik me focussen om nog 2 vuurwerk variaties te maken dit is niet g
 
 Zie de vuurwerk shows: (https://tristanvarewijck.github.io/FireWorks/)[https://tristanvarewijck.github.io/FireWorks/]
 
-**Conclusie**
+## Conclusie
+
 Ik denk dat ik te snel van stapel ben gelopen om direct te beginnen met 3D objecten temaken terwijl ik er niet veel afwist. Wel heb ik veel geleerd doordat ik veel nieuwe css properties heb leren kennen.
 
 ## Code snippets

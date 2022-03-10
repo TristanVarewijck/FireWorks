@@ -37,7 +37,7 @@ In de eerste week had ik super veel zin om aan de slag te gaan met CSS, ik wilde
 
 Gekozen onderdeel: "**Stijlvast Bedieningspaneel**" <br>
 Tutorial: <br>
-(https://medium.com/@annychuks07/how-to-create-a-3d-art-model-with-css3-555a7f0056ed)[https://medium.com/@annychuks07/how-to-create-a-3d-art-model-with-css3-555a7f0056ed]
+[https://medium.com/@annychuks07/how-to-create-a-3d-art-model-with-css3-555a7f0056ed](https://medium.com/@annychuks07/how-to-create-a-3d-art-model-with-css3-555a7f0056ed)
 
 ### Week 2
 
@@ -60,7 +60,7 @@ Gekozen onderdeel: "**Magische vuurwerkshow**"
 
 In week 4 ging ik me focussen om nog 2 vuurwerk variaties te maken dit is niet gelukt, omdat ik er gewoon weg niet genoeg tijd voor had.. Het is me gelukt om nog 1 extra voorwerk show af te krijgen.
 
-Zie de vuurwerk shows: (https://tristanvarewijck.github.io/FireWorks/)[https://tristanvarewijck.github.io/FireWorks/]
+Zie de vuurwerk shows: [https://tristanvarewijck.github.io/FireWorks/](https://tristanvarewijck.github.io/FireWorks/)
 
 ## Conclusie
 

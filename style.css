@@ -61,6 +61,7 @@ input[type="radio"] {
   z-index: 100;
 }
 
+/* label styled as input */
 label {
   margin-top: 1em;
   padding: 0.5em 1em 0.5em 1em;
@@ -73,7 +74,6 @@ label {
   left: 2%;
   font-family: "Bebas Neue", cursive;
   letter-spacing: 1px;
-  /* font-size: large; */
 }
 
 label:nth-of-type(2) {
@@ -93,6 +93,7 @@ label:active {
   background: var(--blue);
 }
 
+/* what makes the actual switch  */
 input[type="radio"]:first-of-type:checked ~ main:first-of-type {
   display: flex;
 }
@@ -116,7 +117,7 @@ main:first-of-type ul li {
   overflow: hidden;
 }
 
-/* flare lines */
+/* all individual flares */
 main:first-of-type ul li:nth-child(1) {
   transform: rotate(18deg) translate(-15px);
 }
@@ -200,6 +201,7 @@ main:first-of-type ul li:nth-child(2n)::before {
   animation: 2s ease-in-out 3s infinite explosion;
 }
 
+/* key frame for making the explosion effect */
 @keyframes explosion {
   0% {
     top: 100%;
@@ -211,7 +213,7 @@ main:first-of-type ul li:nth-child(2n)::before {
   }
 }
 
-/* flares position */
+/* all individual flare group -> position */
 main:first-of-type ul:first-of-type {
   left: 50%;
   top: 50%;
@@ -315,6 +317,7 @@ main:nth-of-type(2) > div {
     0 0 #fff, 0 0 #fff, 0 0 #fff;
 }
 
+/* all individual flare group -> position & size */
 main:nth-of-type(2) div:nth-of-type(1) {
   width: 4px;
   height: 4px;
@@ -385,7 +388,8 @@ main:nth-of-type(2) div:nth-of-type(7) {
   animation-delay: 1.8s;
 }
 
-/* De berekeningen heb ik niet zelf gemaakt, ondanks dat kan ik je wel alles uitleggen. */
+/* De berekeningen heb ik niet zelf gemaakt die heb ik van: , ondanks dat kan ik je wel alles uitleggen. */
+/* red explosion effect  */
 @keyframes explosion-2-red {
   to {
     box-shadow: 226px -325.6666666667px #ea2027,
@@ -417,6 +421,7 @@ main:nth-of-type(2) div:nth-of-type(7) {
   }
 }
 
+/* blue explorsion effect */
 @keyframes explosion-2-blue {
   to {
     box-shadow: 226px -325.6666666667px #3742fa,

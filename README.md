@@ -8,7 +8,6 @@ _Shields that represent my project - They change over time._
 
 <!-- PICTURE OF THE PRODUCT -->
 
-
 ## Live Demo :clapper:
 
 See the pure CSS firworks in action here!:
@@ -18,19 +17,76 @@ See the pure CSS firworks in action here!:
 
 ## Description :label:
 
-For the project CSS to the Resque it was my mission to make a firework show with Vanilla **CSS** and **HTML** ONLY, So the use of Javascript is not an option. The project is 3 firework shows made with only CSS, You can switch firework shows with tabs. 
+For the project CSS to the Resque it was my mission to make a firework show with Vanilla **CSS** and **HTML** ONLY, So the use of Javascript is not an option. The project is 3 firework shows made with only CSS, You can switch firework shows with tabs.
 
 ---
 
 ## ToDoList
 
-In addition from how it now looks, i still want to update the background of the firework shows, so you can see shows in different areas. I also want to upgrade the firework shows. 
+In addition from how it now looks, i still want to update the background of the firework shows, so you can see shows in different areas. I also want to upgrade the firework shows.
 
 - [ ] Background Art
 - [ ] Upgrade the Shows
 - [ ] Make flying flares
 - [ ] Trigger each fire work flare
 
+## Proces
+
+## Code snippets
+
+1. Voor het positioneren van mijn vuurwerk moest ik met de exacte pixels werken hiervoor heb ik een codesnippet gebruikt: https://codepen.io/yshlin/pen/WNMmQX
+
+```
+box-shadow: 226px -325.6666666667px #ea2027,
+      -208px -177.6666666667px #ea2027, -113px -220.6666666667px #ea2027,
+      -64px -20.6666666667px #ea2027, 203px -202.6666666667px #ea2027,
+      -12px -161.6666666667px #ea2027, 138px -232.6666666667px #ea2027,
+      -249px -148.6666666667px #ea2027, -42px -286.6666666667px #ea2027,
+      -5px -0.6666666667px #ea2027, 173px 6.3333333333px #ea2027,
+      -44px -165.6666666667px #ea2027, -40px 2.3333333333px #ea2027,
+      182px -276.6666666667px #ea2027, 108px -151.6666666667px #ea2027,
+      79px -89.6666666667px #ea2027, 122px -241.6666666667px #ea2027,
+      211px 38.3333333333px #ea2027, -47px -147.6666666667px #ea2027,
+      -226px -118.6666666667px #ea2027, -37px -373.6666666667px #ea2027,
+      204px -118.6666666667px #ea2027, 137px -63.6666666667px #ea2027,
+      62px -49.6666666667px #ea2027, 14px -11.6666666667px #ea2027,
+      -222px -170.6666666667px #ea2027, -115px -163.6666666667px #ea2027,
+      223px -32.6666666667px #ea2027, -152px -49.6666666667px #ea2027,
+      -192px -88.6666666667px #ea2027, -50px -197.6666666667px #ea2027,
+      126px -29.6666666667px #ea2027, -142px -387.6666666667px #ea2027,
+      213px -53.6666666667px #ea2027, -21px 35.3333333333px #ea2027,
+      105px -366.6666666667px #ea2027, -94px 5.3333333333px #ea2027,
+      163px -306.6666666667px #ea2027, 45px -238.6666666667px #ea2027,
+      31px -314.6666666667px #ea2027, 176px -180.6666666667px #ea2027,
+      241px -11.6666666667px #ea2027, 88px -23.6666666667px #ea2027,
+      -61px -158.6666666667px #ea2027, -56px 22.3333333333px #ea2027,
+      -214px -59.6666666667px #ea2027, 121px -298.6666666667px #ea2027,
+      123px -206.6666666667px #ea2027, -247px -284.6666666667px #ea2027,
+      -90px -310.6666666667px #ea2027, -116px -299.6666666667px #ea2027;
+  }
+
+```
+
+2
+
+Ik wilde graag als achtergrond een specifieke gradient color hebben, hiervoor heb ik een codesnippet gebruikt: https://codepen.io/bork/pen/WNrmWr
+
+```
+ background: #040b3c;
+  background: -moz-linear-gradient(top, #040b3c 0%, #012459 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, #040b3c),
+    color-stop(100%, #012459)
+  );
+  background: -webkit-linear-gradient(top, #040b3c 0%, #012459 100%);
+  background: -o-linear-gradient(top, #040b3c 0%, #012459 100%);
+  background: -ms-linear-gradient(top, #040b3c 0%, #012459 100%);
+  background: linear-gradient(to bottom, #040b3c 0%, #012459 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#040b3c', endColorstr='#012459',GradientType=0 );
+```
 
 ## Meta
 
